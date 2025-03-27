@@ -1,0 +1,37 @@
+@import "tailwindcss";
+
+@theme inline {
+  /* Configure your theme variables here */
+  --font-display: "Inter", "sans-serif";
+  --color-primary-500: oklch(0.84 0.18 117.33);
+  --spacing: 0.25rem;
+}
+
+body {
+  background-color: #111111;
+  color: #fff;
+}
+
+.suggestion-transition {
+  transition: all 0.3s ease-in-out;
+}
+
+.suggestion-enter {
+  opacity: 0;
+  transform: translateY(20px);
+}
+
+.suggestion-enter-active {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.suggestion-exit {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.suggestion-exit-active {
+  opacity: 0;
+  transform: translateY(-20px);
+}
