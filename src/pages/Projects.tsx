@@ -1,4 +1,3 @@
-import React from "react";
 import BlurText from "../components/reactbits/blur-text";
 import { FloatingDock } from "../components/ui/floating-dock";
 import { IoIosHome } from "react-icons/io";

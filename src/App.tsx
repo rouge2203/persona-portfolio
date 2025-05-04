@@ -3,7 +3,7 @@ import Index from "./pages/Index";
 import About from "./pages/About";
 import Projects from "./pages/Projects";
 import "../globals.css";
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 
 function App() {
   const [currentPath, setCurrentPath] = useState(window.location.pathname);

@@ -4,7 +4,6 @@ import { IoIosHome } from "react-icons/io";
 import { FaUserGraduate } from "react-icons/fa6";
 import { GrProjects } from "react-icons/gr";
 import { BackgroundBeamsWithCollision } from "../components/ui/background-beams-with-collision";
-import GlitchText from "../components/reactbits/glitch-text";
 import {
   FaReact,
   FaPython,
@@ -37,7 +36,6 @@ import {
   SiFlask,
   SiMysql,
   SiOracle,
-  SiMicrosoftazure,
   SiFirebase,
   SiGraphql,
   SiGit,
@@ -45,8 +43,6 @@ import {
   SiNginx,
   SiTailwindcss,
   SiRedux,
-  SiVisualstudiocode,
-  SiMicrosoftoffice,
 } from "react-icons/si";
 
 const Links = [
