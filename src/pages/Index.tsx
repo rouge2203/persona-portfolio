@@ -185,7 +185,6 @@ const Index: React.FC = () => {
 
   const handleBadgeClick = (text: string) => {
     setInputValue(`Tell me about Alejandro's ${text.toLowerCase()}`);
-    inputRef.current?.focus();
   };
 
   return (
